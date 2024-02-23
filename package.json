@@ -1,0 +1,9 @@
+{
+  "name": "@laioutr/prettier-config",
+  "version": "1.0.0",
+  "description": "Laioutr Prettier config",
+  "main": "index.json",
+  "repository": "git@github.com:laioutr/prettier-config.git",
+  "author": "Sebastian Langer <sebastian.langer@laioutr.com>",
+  "license": "MIT"
+}
