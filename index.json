@@ -8,6 +8,15 @@
   "printWidth": 140,
   "bracketSameLine": false,
   "endOfLine": "lf",
-  "experimentalTernaries": true
+  "experimentalTernaries": true,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "overrides": [
+    {
+      "files": ["**/package.json"],
+      "options": {
+        "plugins": ["prettier-plugin-packagejson"]
+      }
+    }
+  ]
 }
 
